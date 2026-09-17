@@ -66,12 +66,6 @@ export default function Navbar() {
             Payments
           </Link>
           <Link
-            href="/#pricing"
-            className="hover:text-[#1ea84b] transition-colors py-2 text-[#475569]"
-          >
-            Pricing
-          </Link>
-          <Link
             href="/#contact"
             className="hover:text-[#1ea84b] transition-colors py-2 text-[#475569]"
           >
@@ -138,13 +132,6 @@ export default function Navbar() {
               className="text-[#0f172a] hover:text-[#1ea84b] py-1"
             >
               Payments
-            </Link>
-            <Link
-              href="/#pricing"
-              onClick={() => setMobileMenuOpen(false)}
-              className="text-[#0f172a] hover:text-[#1ea84b] py-1"
-            >
-              Pricing
             </Link>
             <Link
               href="/#contact"

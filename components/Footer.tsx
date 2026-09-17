@@ -88,8 +88,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/#pricing" className="hover:text-[#1ea84b] transition-colors">
-                  Pricing Plans
+                <Link href="/#contact" className="hover:text-[#1ea84b] transition-colors">
+                  Contact Us
                 </Link>
               </li>
             </ul>

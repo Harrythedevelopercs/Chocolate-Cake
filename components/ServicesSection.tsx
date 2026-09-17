@@ -142,10 +142,10 @@ export default function ServicesSection() {
 
         <div>
           <Link
-            href="#pricing"
+            href="#how-payments-work"
             className="inline-flex items-center gap-2 bg-[#1ea84b] hover:bg-[#168a3d] text-white text-xs font-bold uppercase tracking-wider px-6 py-3.5 rounded-full shadow-md shadow-[#1ea84b]/20 hover:shadow-lg transition-all"
           >
-            <span>VIEW ALL SERVICES & PLANS</span>
+            <span>HOW PAYMENTS WORK</span>
             <ArrowUpRight className="w-4 h-4 stroke-[2.5]" />
           </Link>
         </div>
