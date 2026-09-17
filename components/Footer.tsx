@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { Sparkles, ArrowUpRight, Phone, Mail, MapPin } from "lucide-react";
+import Image from "next/image";
+import { ArrowUpRight, Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -10,15 +11,21 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-[#e2e8f0]">
           {/* Col 1: Brand & Tagline */}
           <div className="lg:col-span-4 space-y-4">
-            <Link href="/" className="flex items-center gap-2.5">
-              <div className="w-10 h-10 rounded-xl bg-[#1ea84b] flex items-center justify-center text-white shadow-sm shadow-[#1ea84b]/30">
-                <Sparkles className="w-5 h-5" />
+            <Link href="/" className="flex items-center gap-3 group">
+              <div className="relative w-10 h-10 flex-shrink-0 group-hover:scale-105 transition-transform">
+                <Image
+                  src="/logo.png"
+                  alt="SANFINC Logo"
+                  width={40}
+                  height={40}
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div className="flex flex-col">
-                <span className="text-2xl font-black tracking-tight text-[#0f172a]">
+                <span className="text-2xl font-black tracking-tight text-[#0f172a] leading-none">
                   SANFINC Inc<span className="text-[#1ea84b]">.</span>
                 </span>
-                <span className="text-[10px] uppercase tracking-widest font-semibold text-[#64748b] -mt-1">
+                <span className="text-[10px] uppercase tracking-widest font-bold text-[#64748b] mt-1">
                   Digital Solutions &amp; IT Services
                 </span>
               </div>
@@ -96,12 +103,12 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-[#64748b]">
               <li>
                 <Link href="/#services" className="hover:text-[#1ea84b] transition-colors">
-                  MVP Development ($4,500+)
+                  MVP Development
                 </Link>
               </li>
               <li>
                 <Link href="/#services" className="hover:text-[#1ea84b] transition-colors">
-                  Enterprise Web Apps ($8,000+)
+                  Enterprise Web Apps
                 </Link>
               </li>
               <li>
@@ -143,7 +150,7 @@ export default function Footer() {
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#1ea84b] flex-shrink-0" />
                 <a href="tel:+16072470891" className="hover:text-[#1ea84b] transition-colors">
-                  +1 (607) 247-0891
+                  (607) 247-0891
                 </a>
               </div>
               <div className="flex items-center gap-2.5">

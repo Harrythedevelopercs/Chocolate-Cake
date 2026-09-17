@@ -154,7 +154,7 @@ export default function PrivacyPolicyPage() {
                     <div className="flex items-center gap-2">
                       <Phone className="w-3.5 h-3.5 text-[#1ea84b]" />
                       <a href="tel:+16072470891" className="hover:text-white transition-colors">
-                        +1 (607) 247-0891
+                        (607) 247-0891
                       </a>
                     </div>
                     <div className="flex items-start gap-2">
@@ -293,17 +293,6 @@ export default function PrivacyPolicyPage() {
                       We do not sell, rent, or trade your personal or business information to third-party advertisers or brokers under any circumstances.
                     </p>
                   </div>
-                  <p>
-                    Data may only be disclosed in the following limited circumstances:
-                  </p>
-                  <ul className="list-disc pl-5 space-y-2 text-[#64748b]">
-                    <li>
-                      <strong className="text-[#0f172a]">Verified Service Providers:</strong> Trusted enterprise vendors such as payment processors (Stripe, Airwallex), cloud hosts (AWS, Vercel), and transactional communication APIs solely for executing contracted services.
-                    </li>
-                    <li>
-                      <strong className="text-[#0f172a]">Legal &amp; Regulatory Authorities:</strong> When required by enforceable court orders, subpoenas, statutory provisions, or federal law enforcement agencies in compliance with U.S. laws.
-                    </li>
-                  </ul>
                 </div>
               </section>
 
@@ -445,7 +434,7 @@ export default function PrivacyPolicyPage() {
                   <div className="text-xs text-[#64748b] space-y-1.5">
                     <p><strong className="text-[#0f172a]">SANFINC Inc.</strong></p>
                     <p>Corporate Address: 24706 BASTIANI CANVAS LN, KATY, TX 77493, USA</p>
-                    <p>Direct Phone: <a href="tel:+16072470891" className="text-[#1ea84b] hover:underline">+1 (607) 247-0891</a></p>
+                    <p>Direct Phone: <a href="tel:+16072470891" className="text-[#1ea84b] hover:underline">(607) 247-0891</a></p>
                     <p>Official Email: <a href="mailto:info@sanfinc.com" className="text-[#1ea84b] hover:underline">info@sanfinc.com</a></p>
                   </div>
                 </div>

@@ -168,7 +168,7 @@ export default function TermsConditionPage() {
                     <div className="flex items-center gap-2">
                       <Phone className="w-3.5 h-3.5 text-[#1ea84b]" />
                       <a href="tel:+16072470891" className="hover:text-white transition-colors">
-                        +1 (607) 247-0891
+                        (607) 247-0891
                       </a>
                     </div>
                     <div className="flex items-start gap-2">
@@ -442,7 +442,7 @@ export default function TermsConditionPage() {
                   <div className="text-xs text-[#64748b] space-y-1.5">
                     <p><strong className="text-[#0f172a]">SANFINC Inc.</strong></p>
                     <p>Corporate Address: 24706 BASTIANI CANVAS LN, KATY, TX 77493, USA</p>
-                    <p>Direct Phone: <a href="tel:+16072470891" className="text-[#1ea84b] hover:underline">+1 (607) 247-0891</a></p>
+                    <p>Direct Phone: <a href="tel:+16072470891" className="text-[#1ea84b] hover:underline">(607) 247-0891</a></p>
                     <p>Official Email: <a href="mailto:info@sanfinc.com" className="text-[#1ea84b] hover:underline">info@sanfinc.com</a></p>
                   </div>
                 </div>

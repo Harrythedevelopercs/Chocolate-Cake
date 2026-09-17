@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { ChevronDown, ArrowUpRight, Menu, X, Sparkles } from "lucide-react";
+import Image from "next/image";
+import { ChevronDown, ArrowUpRight, Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,16 +12,23 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-[#ffffff]/95 backdrop-blur-md border-b border-[#e2e8f0]/80 transition-all">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Brand Logo */}
-        <Link href="/" className="flex items-center gap-2.5 group">
-          <div className="w-10 h-10 rounded-xl bg-[#1ea84b] flex items-center justify-center text-white shadow-sm shadow-[#1ea84b]/30 group-hover:scale-105 transition-transform">
-            <Sparkles className="w-5 h-5" />
+        <Link href="/" className="flex items-center gap-3 group">
+          <div className="relative w-10 h-10 flex-shrink-0 group-hover:scale-105 transition-transform">
+            <Image
+              src="/logo.png"
+              alt="SANFINC Logo"
+              width={40}
+              height={40}
+              className="w-full h-full object-contain"
+              priority
+            />
           </div>
           <div className="flex flex-col">
-            <span className="text-2xl font-black tracking-tight text-[#0f172a]">
+            <span className="text-2xl font-black tracking-tight text-[#0f172a] leading-none">
               SANFINC<span className="text-[#1ea84b]">.</span>
             </span>
-            <span className="text-[10px] uppercase tracking-widest font-semibold text-[#64748b] -mt-1">
-              IT Solutions & Web
+            <span className="text-[10px] uppercase tracking-widest font-bold text-[#64748b] mt-1">
+              IT Solutions &amp; Web
             </span>
           </div>
         </Link>

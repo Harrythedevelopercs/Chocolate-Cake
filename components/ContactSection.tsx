@@ -71,7 +71,7 @@ export default function ContactSection() {
                     href="tel:+16072470891"
                     className="text-sm sm:text-base font-bold text-[#0f172a] hover:text-[#1ea84b] block transition-colors mt-0.5"
                   >
-                    +1 (607) 247-0891
+                    (607) 247-0891
                   </a>
                 </div>
               </div>

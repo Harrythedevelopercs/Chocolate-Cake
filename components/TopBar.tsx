@@ -52,7 +52,7 @@ export default function TopBar() {
               href="tel:+16072470891"
               className="hover:text-[#1ea84b] transition-colors"
             >
-              +1 (607) 247-0891
+              (607) 247-0891
             </a>
           </div>
         </div>
