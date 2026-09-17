@@ -35,11 +35,11 @@ export default function AboutSection() {
                   <ShieldCheck className="w-5 h-5" />
                 </div>
                 <h4 className="text-sm font-bold text-[#0f172a]">
-                  U.S.-Registered &amp; Compliant
+                  U.S. Registered Business
                 </h4>
               </div>
               <p className="text-xs text-[#64748b] leading-relaxed pl-12">
-                Regulated entity providing strict NDAs, compliance, and transparent contracts.
+                Providing standard non-disclosure agreements (NDAs), intellectual property protection, and transparent contracts.
               </p>
             </div>
 
@@ -110,7 +110,7 @@ export default function AboutSection() {
             <div className="flex items-center gap-3">
               <CheckCircle2 className="w-5 h-5 text-[#1ea84b] flex-shrink-0" />
               <span className="text-sm font-medium text-[#0f172a]">
-                U.S.-registered corporate entity with clear contractual compliance
+                U.S.-registered business entity with transparent commercial agreements
               </span>
             </div>
             <div className="flex items-center gap-3">

@@ -16,10 +16,10 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="text-2xl font-black tracking-tight text-[#0f172a]">
-                  SANFINC<span className="text-[#1ea84b]">.</span>
+                  SANFINC Inc<span className="text-[#1ea84b]">.</span>
                 </span>
                 <span className="text-[10px] uppercase tracking-widest font-semibold text-[#64748b] -mt-1">
-                  IT Solutions & Web
+                  Digital Solutions &amp; IT Services
                 </span>
               </div>
             </Link>
@@ -31,7 +31,7 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/sanfinc/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#f8faf9] hover:bg-[#1ea84b] hover:text-white border border-[#e2e8f0] flex items-center justify-center text-xs font-bold transition-all"
                 aria-label="Facebook"
               >
@@ -40,20 +40,11 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/sanf_inc/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#f8faf9] hover:bg-[#1ea84b] hover:text-white border border-[#e2e8f0] flex items-center justify-center text-xs font-bold transition-all"
                 aria-label="Instagram"
               >
                 in
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noreferrer"
-                className="w-9 h-9 rounded-full bg-[#f8faf9] hover:bg-[#1ea84b] hover:text-white border border-[#e2e8f0] flex items-center justify-center text-xs font-bold transition-all"
-                aria-label="Twitter"
-              >
-                x
               </a>
             </div>
           </div>
@@ -65,32 +56,32 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-sm text-[#64748b]">
               <li>
-                <Link href="#home" className="hover:text-[#1ea84b] transition-colors">
+                <Link href="/" className="hover:text-[#1ea84b] transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="hover:text-[#1ea84b] transition-colors">
+                <Link href="/#about" className="hover:text-[#1ea84b] transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-[#1ea84b] transition-colors">
+                <Link href="/#services" className="hover:text-[#1ea84b] transition-colors">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="#work" className="hover:text-[#1ea84b] transition-colors">
-                  Case Studies
-                </Link>
-              </li>
-              <li>
-                <Link href="#process" className="hover:text-[#1ea84b] transition-colors">
+                <Link href="/#process" className="hover:text-[#1ea84b] transition-colors">
                   Our Process
                 </Link>
               </li>
               <li>
-                <Link href="#pricing" className="hover:text-[#1ea84b] transition-colors">
+                <Link href="/#how-payments-work" className="hover:text-[#1ea84b] transition-colors">
+                  How Payment Works
+                </Link>
+              </li>
+              <li>
+                <Link href="/#pricing" className="hover:text-[#1ea84b] transition-colors">
                   Pricing Plans
                 </Link>
               </li>
@@ -104,33 +95,33 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-sm text-[#64748b]">
               <li>
-                <Link href="#services" className="hover:text-[#1ea84b] transition-colors">
+                <Link href="/#services" className="hover:text-[#1ea84b] transition-colors">
                   MVP Development ($4,500+)
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-[#1ea84b] transition-colors">
+                <Link href="/#services" className="hover:text-[#1ea84b] transition-colors">
                   Enterprise Web Apps ($8,000+)
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-[#1ea84b] transition-colors">
+                <Link href="/#services" className="hover:text-[#1ea84b] transition-colors">
                   Mobile App Development
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-[#1ea84b] transition-colors">
+                <Link href="/#services" className="hover:text-[#1ea84b] transition-colors">
                   E-Commerce Storefronts
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-[#1ea84b] transition-colors">
-                  Cloud DevOps & AWS Migration
+                <Link href="/#services" className="hover:text-[#1ea84b] transition-colors">
+                  Cloud DevOps &amp; AWS Migration
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-[#1ea84b] transition-colors">
-                  Cybersecurity & HIPAA Compliance
+                <Link href="/#services" className="hover:text-[#1ea84b] transition-colors">
+                  Cybersecurity &amp; Compliance
                 </Link>
               </li>
             </ul>
@@ -139,12 +130,15 @@ export default function Footer() {
           {/* Col 4: Contact Details */}
           <div className="lg:col-span-3 space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-[#0f172a]">
-              Headquarters
+              Legal Entity &amp; Office
             </h4>
             <div className="space-y-3 text-sm text-[#64748b]">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#1ea84b] flex-shrink-0 mt-0.5" />
-                <span>24706 BASTIANI CANVAS LN, KATY, TX 77493</span>
+                <div>
+                  <span className="font-semibold text-[#0f172a] block">Corporate Address:</span>
+                  <span>24706 BASTIANI CANVAS LN, KATY, TX 77493</span>
+                </div>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#1ea84b] flex-shrink-0" />
@@ -164,30 +158,32 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#64748b]">
-          <p>© 2025 SANFINC. All Rights Reserved.</p>
-          <div className="flex items-center gap-6">
-            <a
-              href="https://sanfinc.com/privacy-policy-2/"
-              target="_blank"
-              rel="noreferrer"
+          <p>© 2026 SANFINC Inc. All Rights Reserved.</p>
+          <div className="flex flex-wrap items-center gap-6">
+            <Link
+              href="/privacy-policy"
               className="hover:text-[#1ea84b] transition-colors"
             >
               Privacy Policy
-            </a>
-            <a
-              href="https://sanfinc.com/terms-condition/"
-              target="_blank"
-              rel="noreferrer"
+            </Link>
+            <Link
+              href="/terms-condition"
               className="hover:text-[#1ea84b] transition-colors"
             >
               Terms &amp; Conditions
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              href="/refund-policy"
+              className="hover:text-[#1ea84b] transition-colors"
+            >
+              Refund &amp; Cancellation Policy
+            </Link>
+            <Link
+              href="/#contact"
               className="hover:text-[#1ea84b] transition-colors font-semibold text-[#1ea84b]"
             >
               Client Support ↗
-            </a>
+            </Link>
           </div>
         </div>
       </div>

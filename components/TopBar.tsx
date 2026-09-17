@@ -9,7 +9,7 @@ export default function TopBar() {
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-1.5 font-medium text-[#475569]">
             <MapPin className="w-3.5 h-3.5 text-[#1ea84b]" />
-            <span>24706 Bastiani Canvas Ln, Katy, TX 77493</span>
+            <span>24706 BASTIANI CANVAS LN, KATY, TX 77493</span>
           </div>
           <div className="flex items-center gap-1.5 font-medium text-[#475569]">
             <Mail className="w-3.5 h-3.5 text-[#1ea84b]" />
@@ -29,7 +29,7 @@ export default function TopBar() {
             <a
               href="https://www.facebook.com/sanfinc/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="w-6 h-6 rounded-full bg-[#f1f5f9] flex items-center justify-center hover:bg-[#1ea84b] hover:text-white transition-all text-[#0f172a] font-bold text-[10px]"
               aria-label="Facebook"
             >
@@ -38,20 +38,11 @@ export default function TopBar() {
             <a
               href="https://www.instagram.com/sanf_inc/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="w-6 h-6 rounded-full bg-[#f1f5f9] flex items-center justify-center hover:bg-[#1ea84b] hover:text-white transition-all text-[#0f172a] font-bold text-[10px]"
               aria-label="Instagram"
             >
               in
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noreferrer"
-              className="w-6 h-6 rounded-full bg-[#f1f5f9] flex items-center justify-center hover:bg-[#1ea84b] hover:text-white transition-all text-[#0f172a] font-bold text-[10px]"
-              aria-label="Twitter"
-            >
-              x
             </a>
           </div>
           <div className="h-3 w-px bg-[#e2e8f0]" />

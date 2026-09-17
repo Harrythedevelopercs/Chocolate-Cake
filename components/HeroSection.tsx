@@ -10,19 +10,19 @@ const HERO_SLIDES = [
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop",
     caption: "Full-Stack Development Team",
     subtext: "Delivering fast, scalable web apps with Next.js & Cloud DevOps",
-    badge: "100+ Projects Shipped",
+    badge: "Custom Web & Cloud DevOps",
   },
   {
     image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop",
     caption: "Agile Sprint Collaboration",
     subtext: "Transparent weekly milestones with verified sprint delivery",
-    badge: "U.S. Registered & Compliant",
+    badge: "Agile Sprint Collaboration",
   },
   {
     image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1200&auto=format&fit=crop",
     caption: "Expert Product Engineering",
     subtext: "From MVP validation to high-traffic enterprise architectures",
-    badge: "45-Day MVP Delivery",
+    badge: "Product & MVP Engineering",
   },
 ];
 
@@ -151,41 +151,6 @@ export default function HeroSection() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Bottom Stats Metric Bar (Directly below hero matching reference) */}
-      <div className="mt-6 bg-white rounded-[28px] p-6 sm:p-8 border border-[#e2e8f0]/80 shadow-sm">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 divide-y sm:divide-y-0 sm:divide-x divide-[#e2e8f0]">
-          {/* Stat 1 */}
-          <div className="flex flex-col sm:px-6 first:pl-0">
-            <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0f172a] tracking-tight">
-              12K<span className="text-[#1ea84b]">+</span>
-            </span>
-            <span className="text-sm font-semibold text-[#64748b] mt-1">
-              Worldwide Clients & Businesses
-            </span>
-          </div>
-
-          {/* Stat 2 */}
-          <div className="flex flex-col sm:px-6 pt-4 sm:pt-0">
-            <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0f172a] tracking-tight">
-              100K<span className="text-[#1ea84b]">+</span>
-            </span>
-            <span className="text-sm font-semibold text-[#64748b] mt-1">
-              Projects & Milestones Delivered
-            </span>
-          </div>
-
-          {/* Stat 3 */}
-          <div className="flex flex-col sm:px-6 pt-4 sm:pt-0 last:pr-0">
-            <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0f172a] tracking-tight">
-              99<span className="text-[#1ea84b]">%</span>
-            </span>
-            <span className="text-sm font-semibold text-[#64748b] mt-1">
-              Verified Client Satisfaction Rate
-            </span>
           </div>
         </div>
       </div>

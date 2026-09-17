@@ -28,43 +28,43 @@ export default function Navbar() {
         {/* Desktop Menu Links */}
         <div className="hidden lg:flex items-center gap-8 text-sm font-semibold text-[#0f172a]">
           <Link
-            href="#home"
+            href="/"
             className="flex items-center gap-1 hover:text-[#1ea84b] transition-colors py-2 text-[#1ea84b]"
           >
             Home <ChevronDown className="w-3.5 h-3.5 opacity-60" />
           </Link>
           <Link
-            href="#about"
+            href="/#about"
             className="flex items-center gap-1 hover:text-[#1ea84b] transition-colors py-2 text-[#475569]"
           >
             About
           </Link>
           <Link
-            href="#services"
+            href="/#services"
             className="flex items-center gap-1 hover:text-[#1ea84b] transition-colors py-2 text-[#475569]"
           >
             Services <ChevronDown className="w-3.5 h-3.5 opacity-60" />
           </Link>
           <Link
-            href="#work"
-            className="hover:text-[#1ea84b] transition-colors py-2 text-[#475569]"
-          >
-            Our Work
-          </Link>
-          <Link
-            href="#process"
+            href="/#process"
             className="hover:text-[#1ea84b] transition-colors py-2 text-[#475569]"
           >
             Process
           </Link>
           <Link
-            href="#pricing"
+            href="/#how-payments-work"
+            className="hover:text-[#1ea84b] transition-colors py-2 text-[#475569]"
+          >
+            Payments
+          </Link>
+          <Link
+            href="/#pricing"
             className="hover:text-[#1ea84b] transition-colors py-2 text-[#475569]"
           >
             Pricing
           </Link>
           <Link
-            href="#contact"
+            href="/#contact"
             className="hover:text-[#1ea84b] transition-colors py-2 text-[#475569]"
           >
             Contact
@@ -74,7 +74,7 @@ export default function Navbar() {
         {/* Action Button */}
         <div className="hidden lg:flex items-center gap-4">
           <Link
-            href="#contact"
+            href="/#contact"
             className="inline-flex items-center gap-2 bg-[#1ea84b] hover:bg-[#168a3d] text-white text-xs uppercase font-bold tracking-wider px-6 py-3.5 rounded-full shadow-md shadow-[#1ea84b]/20 hover:shadow-lg hover:shadow-[#1ea84b]/30 transition-all hover:-translate-y-0.5"
           >
             <span>GET IN TOUCH</span>
@@ -97,49 +97,49 @@ export default function Navbar() {
         <div className="lg:hidden bg-white border-b border-[#e2e8f0] px-6 py-6 space-y-4 shadow-xl">
           <div className="flex flex-col space-y-3 font-semibold text-base">
             <Link
-              href="#home"
+              href="/"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#1ea84b] py-1"
             >
               Home
             </Link>
             <Link
-              href="#about"
+              href="/#about"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#0f172a] hover:text-[#1ea84b] py-1"
             >
               About
             </Link>
             <Link
-              href="#services"
+              href="/#services"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#0f172a] hover:text-[#1ea84b] py-1"
             >
               Services
             </Link>
             <Link
-              href="#work"
-              onClick={() => setMobileMenuOpen(false)}
-              className="text-[#0f172a] hover:text-[#1ea84b] py-1"
-            >
-              Our Work
-            </Link>
-            <Link
-              href="#process"
+              href="/#process"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#0f172a] hover:text-[#1ea84b] py-1"
             >
               Process
             </Link>
             <Link
-              href="#pricing"
+              href="/#how-payments-work"
+              onClick={() => setMobileMenuOpen(false)}
+              className="text-[#0f172a] hover:text-[#1ea84b] py-1"
+            >
+              Payments
+            </Link>
+            <Link
+              href="/#pricing"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#0f172a] hover:text-[#1ea84b] py-1"
             >
               Pricing
             </Link>
             <Link
-              href="#contact"
+              href="/#contact"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#0f172a] hover:text-[#1ea84b] py-1"
             >
@@ -148,7 +148,7 @@ export default function Navbar() {
           </div>
           <div className="pt-3 border-t border-[#e2e8f0]">
             <Link
-              href="#contact"
+              href="/#contact"
               onClick={() => setMobileMenuOpen(false)}
               className="w-full justify-center inline-flex items-center gap-2 bg-[#1ea84b] text-white text-xs uppercase font-bold tracking-wider px-6 py-3.5 rounded-full"
             >
